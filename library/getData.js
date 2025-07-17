@@ -1,5 +1,5 @@
-export async function getData (url, option = {}) {
-    const data = await fetch(url, option);
+export async function getData (url, options = {}) {
+    const data = await fetch(url, options);
 
     return data.json();
 }

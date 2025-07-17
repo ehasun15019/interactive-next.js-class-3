@@ -7,5 +7,11 @@
     { "id": "5", "title": "Post 5", "body": "p 5 body"},
     { "id": "6", "title": "Post 6", "body": "p 6 body"},
     { "id": "7", "title": "Post 7", "body": "p 7 body"}
+  ],
+
+  "comments": [
+    { "id": "1", "text": "a comment about post 1", "postId": "1" },
+    { "id": "2", "text": "another comment about post 1", "postId": "1" }
   ]
 }
+
