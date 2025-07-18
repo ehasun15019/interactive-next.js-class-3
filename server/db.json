@@ -6,12 +6,17 @@
     { "id": "4", "title": "Post 4", "body": "p 4 body"},
     { "id": "5", "title": "Post 5", "body": "p 5 body"},
     { "id": "6", "title": "Post 6", "body": "p 6 body"},
-    { "id": "7", "title": "Post 7", "body": "p 7 body"}
+    { "id": "7", "title": "Post 7", "body": "p 7 body"},
+    { "id": "8", "title": "Post 8", "body": "p 8 body"},
+    { "id": "9", "title": "Post 9", "body": "p 9 body"}
   ],
 
   "comments": [
     { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
+    { "id": "2", "text": "another comment about post 1", "postId": "1" },
+    { "id": "3", "text": "another comment about post 3", "postId": "3" },
+    { "id": "4", "text": "another comment about post 4", "postId": "4" },
+    { "id": "5", "text": "another comment about post 5", "postId": "5" }
   ]
 }
 
