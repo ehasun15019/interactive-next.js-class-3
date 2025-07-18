@@ -22,7 +22,7 @@ const Header = () => {
             </li>
 
             <li>
-                <Link href="/isr" prefetch={false}>ISR</Link>
+                <Link href="/isr/posts" prefetch={false}>ISR</Link>
             </li>
 
             <li>
