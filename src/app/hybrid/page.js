@@ -1,5 +1,9 @@
 import { getData } from "../../../library/getData";
 
+// page ka dynamic kore dai 
+// export const dynamic = "force-dynamic"
+
+
 export default async function Hybrid() {
 
   const post = await getData("http://localhost:8000/posts");
@@ -14,7 +18,7 @@ export default async function Hybrid() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h3 className="text-3xl font-extrabold">Static page</h3>
+      <h3 className="text-3xl font-extrabold">Hybrid page</h3>
 
       <p>
         Work on Hybrid
