@@ -2,12 +2,14 @@ import { getData } from "../../../library/getData";
 
 export default async function ISR() {
 
+    // server run automatically. just oi next option ta lekte hobe
   const post = await getData("http://localhost:8000/posts", {
     next : {
         revalidate: 3.
     }
   });
 
+  // server run automatically. just oi next option ta lekte hobe
   const comment = await getData("http://localhost:8000/comments", {
     next : {
         revalidate: 3.
